@@ -1,6 +1,6 @@
 # StoryPoints
 
-Anonymous app for listening to, and sharing, stories. Under constuction.
+Anonymous app for listening to, and sharing, stories. Under construction.
 
 ## Techonologies
 
@@ -9,7 +9,8 @@ Written in react-native as an Expo-project.
 Dependencies: 
 - react-redux
 - expo speech
-- many react native elements, like: map, vector icons, tab navigation, paper
+- expo map
+- many react native elements, like: vector icons, tab navigation, paper
 
 ## Back-end
 
@@ -27,8 +28,17 @@ Working [Expo client](https://expo.io/)
 $ git clone https://github.com/pineappletea/storypoints-reactn-app.git
 
 ```
+> move to project directory
+```
+$ cd .\storypoints-reactn-app\
+```
 
-> and install 
+> add expo and dependencies
 ```
 $ expo install
+```
+
+> launch with expo
+```
+$ expo start
 ```
