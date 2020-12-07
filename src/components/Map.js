@@ -18,7 +18,6 @@ export default function Map() {
       })
 
     
-    console.log(stories)
     function getKey() {
         keychain++
         return keychain
@@ -49,7 +48,6 @@ export default function Map() {
     function allowMarkers() {  
         setMapReady(true)
     }
-
 
     return (
         <MapView
